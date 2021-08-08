@@ -1,0 +1,373 @@
+.bgimg{
+	background-image:url('img/s1.png');
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:660px;
+}
+
+.headerset{
+	padding-top:240px;
+	box-sizing:border-box;
+}
+
+.headerset h2{
+	font-size:42px;
+}
+
+.headerset h1{
+	font-size:82px;
+	font-weight:bold;
+}
+
+
+/*.......our services...........*/
+
+.oursevices{
+	padding:100px 0px 60px;
+	height:650px;
+}
+.oursevices h1{
+	font-size:50px;
+	font-weight:bold;
+}
+
+.rowsetting{
+	margin:80px 0px!important;
+	
+}
+
+.imgsetting{
+	border-radius:50%;
+	width:100px;
+	height:100px;
+}
+
+.fa-shopping-cart{
+	margin-top:26px;
+}
+.fa-desktop{
+	margin-top:28px;
+}
+.fa-lock{
+	margin-top:26px;
+}
+
+.rowsetting h2{
+	margin-top:20px;
+	font-size:30px;
+	font-weight:bold;
+}
+.rowsetting p{
+	margin:10px;
+	color:#8F8F8F !important;
+}
+
+
+
+
+/* ...... portfolio ............*/
+
+.portfolio{
+	height:1400px;
+	width:100%;
+	padding:100px 0px 60px;
+}
+.portfolio h1{
+	font-size:50px;
+	font-weight:bold;
+}
+.card{
+	margin-top:40px;
+}
+
+
+
+/* ............ our team ............*/
+
+.ourteam{
+	height:700px;
+	width:100%;
+	padding:100px 0px 60px;
+}
+
+.ourteam h1{
+	font-size:50px;
+	font-weight:bold;
+}
+.teamsetting{
+	margin-top:70px!important;
+}
+
+
+/*...... footer .........*/
+
+.footer{
+	height:50px;
+}
+.footer h6{
+	line-height:42px;
+}
+
+
+
+
+
+
+/*.......... for onother page........*/
+
+.oursevices1{
+	padding:160px 0px 120px;
+	height:750px;
+	width:100%;
+}
+
+.portfolio1{
+	padding:195px 0px 120px;
+	height:1500px;
+}
+.pagination{
+	padding:90px 0px 30px;
+}
+
+.portfolio2{
+	padding:195px 0px 120px;
+	height:1700px;
+}
+
+.about{
+	padding:190px 0px 120px;
+	height:700px;
+}
+.ourteam1{
+	padding:190px 0px 120px;
+	height:700px;
+}
+
+.contract{
+	margin-top:7rem!important;
+}
+.footer1{
+	margin-top:160px;
+}
+
+
+
+
+/*................ Services ......................*/
+
+
+
+/*for part number 12 with some lack of right mark/ thik chinho
+
+which is create for fas......we cut s then it stand only fa...!
+similarly for cros need extra fa to add ....!
+
+*/
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  height:800px;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+/**********************
+/***** About us *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+	padding: 60px 0;
+}
+section .section-title{
+	text-align:center;
+	color:#007b5e;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	padding:170px 0px 120px;
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+
+
+
+
+/*............  Contract ..............*/
+
+
+#contatti{
+  background-color: #70c3be;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
